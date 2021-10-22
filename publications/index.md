@@ -45,7 +45,7 @@ layout: wide
 | 4 | [ЯПиК'17](https://elibrary.ru/item.asp?id=28974859&selid=29280363) | [*Независимая от компилятора библиотека точной сборки мусора для языка C++* (in Russian)](https://elibrary.ru/item.asp?id=29280363) | Apr '17 | E.Moiseenko, ***D.Berezun*** | |
 | 3 | [META'16](http://meta2016.pereslavl.ru/) | [Working Notes: Compiling ULC to Lower-level Code by Game Semantics and Partial Evaluation](http://meta2016.pereslavl.ru/papers/2016_Berezun_Jones__Working_Notes__Compiling_ULC_to_Lower-level_Co_de_by_Game_Semantics_and_Partial_Evaluation.pdf)| Jun '16 | ***D.Berezun*** and [Neil D. Jones](http://hjemmesider.diku.dk/~neil/) | [paper]({{ site.baseurl }}{% link /publications/assets/meta_2016.pdf %}) |
 | 2 | SEIM'16 | *Incremental Garbage Collection Library for C++* (in Russian) | '16 | E.Moiseenko, ***D.Berezun*** | |
-| 1 | SECR'14 | [*Precise Garbage Collection for C++ with a Non-Cooperative Compiler*](https://dl.acm.org/doi/abs/10.1145/2687233.2687244) | '14 | ***D.Berezun***, [D.Boulytchev](https://research.jetbrains.org/researchers/db/) | [paper]({{ site.baseurl }}{% link /publications/assets/secr_2014.pdf %}) |
+| 1 | [SECR'14](http://2014.secr.ru/) | [*Precise Garbage Collection for C++ with a Non-Cooperative Compiler*](https://dl.acm.org/doi/abs/10.1145/2687233.2687244) | '14 | ***D.Berezun***, [D.Boulytchev](https://research.jetbrains.org/researchers/db/) | [paper]({{ site.baseurl }}{% link /publications/assets/secr_2014.pdf %}), [talk](http://2014.secr.ru/lang/ru/program/submitted-presentations/precise-garbage-collection-for-c-with-a-non-cooperative-compiler) |
 |<img width=30/>| <img width=70/> | <img width=400/> |<img width=70/> | | |
 
 [//]: <> (TODO: add 1) GC unpublished 2)Any with Semyon and Alexei in 21??)
