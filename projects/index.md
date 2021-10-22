@@ -173,3 +173,14 @@ TODO
 3, 4, мага
 
 TODO
+
+
+## Haskell^{-1} + interleaving ~===~ minicanren?
+
+(automatic function inversion in haskell. Teegen, Prott, Bunkenburg)
+
+## Dynamic compiler for ocanren
+
+## TODO
+
+implement an interpreter for some invertible language in minikanren and check that we can run it in different directions
