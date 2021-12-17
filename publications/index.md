@@ -2,6 +2,14 @@
 layout: wide
 ---
 
+# Talks
+
+| Place | Title | Slides |
+| :---- | :---- | :--- |
+| JB mini conference | My Meta Group Results | [slides]({{ site.baseurl }}{% link /publications/assets/main.pdf %}) |
+
+
+
 # Selected pulications
 
 | Place | Title | Date | Authors | Other |
