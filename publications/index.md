@@ -52,8 +52,19 @@ layout: wide
 
 [//]: <> (TODO: add 1) GC unpublished 2)Any with Semyon and Alexei in 21??)
 
+
+# Organiser and PC member
+
+* PC co-chair miniKanren workshop 2022 (co-located with ICFP)
+* PC co-chair [SEIM-2022](https://seim-conf.org/)
+* PC member [SEIM-2021](https://seim-conf.org/archive/2021/), [SEIM-2020](https://seim-conf.org/archive/2020/), [SEIM-2019](https://seim-conf.org/archive/2019/), [SEIM-2018](https://seim-conf.org/archive/2018/)
+
+
 # Talks
 
-| Place | Title | Slides |
-| :---- | :---- | :--- |
-| JB mini conference | My Meta Group Results | [slides]({{ site.baseurl }}{% link /publications/assets/main.pdf %}) |
+| Place | Title | Slides/Video |
+| :---- | :---  | :---         |
+| JB mini conference | My Meta Group Results 2021 | [slides]({{ site.baseurl }}{% link /publications/assets/main.pdf %}) |
+| Open lecture       | Metacomputations basics (основы метавычислений) | [video(rus)](https://youtu.be/Bn_86F7xdLs) |
+| JB-lab seminar     | Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма'' | [video](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7) |
+| MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | [часть 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [часть 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [часть 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
