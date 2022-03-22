@@ -4,7 +4,7 @@ layout: default
 
 [presentation]({{ site.baseurl }}{% link /assets/main.pdf %})
 
-[//]: <> (
+<!---
 # About:
 
 Hi!
@@ -36,4 +36,4 @@ I also work as an assotiate professor at the faculty of mathematics and mechanic
 | 2014 --- 2018 | Saint Petersburg State University (SPb, Russia) | PhD Student  |
 | 2009 --- 2014 | Saint Petersburg State University (SPb, Russia) | Specialist Student (~master student) |
 | 1999 --- 2009 | Physics and Mathematics Lyceum №30 (SPb, Russia) | Lyceum Student |
-)
+-->
