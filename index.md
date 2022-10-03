@@ -1,19 +1,21 @@
 ---
 layout: empty
 ---
-
-[presentation]({{ site.baseurl }}{% link /assets/main.pdf %})
-
 <!---
+[presentation]({{ site.baseurl }}{% link /assets/main.pdf %})
+-->
+
 # About:
 
 Hi!
 I'm a PhD in computer science.
 I wrote my [PhD thesis](https://disser.spbu.ru/files/disser2/disser/5cp32FwxGH.pdf) on traversal-based normalization in March 2018.
 I graduated from the St. Petersburg State University, Mathematics and Mechanics Faculty, Department of Computer Science in 2014.
-Nowadays, I'm the head of *Metacomputations and Distributed Technologies* research group of [*Programming Languages and Tools Lab*](https://research.jetbrains.org/groups/plt_lab/) in [JetBrains Research](https://research.jetbrains.org/).
+Nowadays, I'm work as a resercher in [*Programming Languages and Tools Lab*](https://research.jetbrains.org/groups/plt_lab/) in [JetBrains Research](https://research.jetbrains.org/), The Netehrlands.
+<!---
+the head of *Metacomputations and Distributed Technologies* research group of [*Programming Languages and Tools Lab*](https://research.jetbrains.org/groups/plt_lab/) in [JetBrains Research](https://research.jetbrains.org/).
 I also work as an assotiate professor at the faculty of mathematics and mechanics of Saint Petersburg State University, and as lecturer at the Department of Computer Science at the Higher School of Economics and [Computer Science Center](https://compscicenter.ru/).
-
+-->
 
 # Employment history:
 
@@ -36,4 +38,3 @@ I also work as an assotiate professor at the faculty of mathematics and mechanic
 | 2014 --- 2018 | Saint Petersburg State University (SPb, Russia) | PhD Student  |
 | 2009 --- 2014 | Saint Petersburg State University (SPb, Russia) | Specialist Student (~master student) |
 | 1999 --- 2009 | Physics and Mathematics Lyceum №30 (SPb, Russia) | Lyceum Student |
--->
