@@ -1,5 +1,5 @@
 ---
-layout: empty
+layout: default
 ---
 <!---
 [presentation]({{ site.baseurl }}{% link /assets/main.pdf %})
