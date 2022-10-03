@@ -28,6 +28,8 @@ layout: wide
 
 | #  | Place | Title | Date | Authors | Other |
 | :- | :---- | :---- | :--- | :------ | :---- |
+| [22](https://icfp22.sigplan.org/home/minikanren-2022#program) | [miniKanren 2022](https://icfp22.sigplan.org/home/minikanren-2022#About) | [*Wildcard Logic Variables*](https://icfp22.sigplan.org/details/minikanren-2022-papers/5/Wildcard-Logic-Variables) | Sep '22 | [D. Kosarev](http://kakadu.github.io/), ***D.Berezun***, P.Losov | [paper]({{ site.baseurl }}{% link /publications/assets/mk-2022-wild.pdf %}) |
+| [21](https://icfp22.sigplan.org/home/minikanren-2022#program) | [miniKanren 2022](https://icfp22.sigplan.org/home/minikanren-2022#About) | [*On a Direction-Driven Functional Conversion*](https://icfp22.sigplan.org/details/minikanren-2022-papers/2/On-a-Direction-Driven-Functional-Conversion) | Sep '22 | [E. Verbitskaia](https://research.jetbrains.org/researchers/everbitskaia/), ***D.Berezun***, [D.Boulytchev](https://research.jetbrains.org/researchers/db/) | [paper]({{ site.baseurl }}{% link /publications/assets/mk-2022-edd.pdf %}) |
 | 20 | [ICPP'21](https://oaciss.uoregon.edu/icpp21/index.php) | [*Efficient Parallel Algorithms for String Comparison*](https://dl.acm.org/doi/10.1145/3472456.3472489) | Aug '21 | N.Mishin, ***D.Berezun***, [A.Tiskin](https://scholar.google.com/citations?user=P9lIbS0AAAAJ&hl=en) | [paper]({{ site.baseurl }}{% link /publications/assets/icpp_2021.pdf %}), [slides]({{ site.baseurl }}{% link /publications/assets/icpp_2021_presentation.pdf %}) |
 | 19 | [TFPIE'21](https://wiki.tfpie.science.ru.nl/TFPIE2021) | *Reimplementing the Wheel: Teaching Compilers with a Small Self-Contained One* | Jul '21 | [D. Boulytchev](https://research.jetbrains.org/researchers/db/), ***D.Berezun*** | [paper]({{ site.baseurl }}{% link /publications/assets/TFPIE_2021.pdf %}), [slides]({{ site.baseurl }}{% link /publications/assets/TFPIE_2021_slides.pdf %}) |
 | 18 |[SYRCoSE'21](http://syrcose.ispras.ru/) | *Empirical Study of Partial Evaluation of Matrix and String Algorithms* | May '21 | I.Balashov, [S.Grigorev](https://research.jetbrains.org/researchers/gsv/), ***D.Berezun*** | [paper]({{ site.baseurl }}{% link /publications/assets/syrcose_2021.pdf %}) |
@@ -64,7 +66,6 @@ layout: wide
 
 | Place | Title | Slides/Video |
 | :---- | :---  | :---         |
-| JB mini conference | My Meta Group Results 2021 | [slides]({{ site.baseurl }}{% link /publications/assets/main.pdf %}) |
 | Open lecture       | Metacomputations basics (основы метавычислений) | [video(rus)](https://youtu.be/Bn_86F7xdLs) |
 | JB-lab seminar     | Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма'' | [video](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7) |
-| MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | [часть 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [часть 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [часть 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
+| MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | (RU) [part 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [part 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [part 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
