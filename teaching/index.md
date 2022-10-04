@@ -2,93 +2,129 @@
 layout: default
 ---
 
-# Доклады и открытые лекции
+---
 
-* [Открытая лекция: основы метавычислений](https://youtu.be/Bn_86F7xdLs)
-* [Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма''](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7)
-* Доклад на МехМате МГУ:[часть 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [часть 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [часть 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE)
+## Functional programming (Введение в функциональное программирование)
 
-## Введение в метавычисления
+The course is an introduction to functional programming.
+We will discuss some basic concepts and approaches in this area, such as lambda calculus and reduction orders, lazy evaluation, type systems and type inference, polymorphism, inductive and functional data structures, folds, memoization, continuations, algebraic data structures, functors, monads, recursion schemes, proof of program properties, etc.
+We will also see how these concepts and approaches solve important and interesting practical problems.
+Students will learn how to create applications in a pure functional programming language Haskell.
+Besides coding, students will learn how to test their programs, and how to use developers tools to debug and improve programs’ efficiency.
+The course provides solid ground for using the functional programming paradigm in mainstream languages and is a prerequisite for many programming languages theory courses.
 
+Readings (toogether with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
+
+| Place | Year | Role |
+| :--- | :--- | :--- |
+| [Jacobs University](https://www.jacobs-university.de/) | Autumn 2022 | Lectures |
+|<img width=150/>|<img width=100/>|<img width=120/>|
+
+[TODO: matherials and links]
+
+---
+
+## Introduction into Metacomputations (Введение в метавычисления)
+
+[ENG]
+The course is an introduction into metacomputations, a field of computer science that deals meta-programs design.
+Meta-program is a program that manipulate other programs as data, including generating other programs as a result of its work.
+The area is closely related to program optimizations and programming languages semantic, as well as exposure to program generation.
+Students are introduced to the concepts of Futamura projections, program specialization, supercompilation, distillation and so on.
+In practice, it is expected that both a self-applied tiny Pascal-like language specializer capable of generating programming language compilers by their interpreters and a positive supercompiler of simple functional languge would be implemented.
+
+[RUS]
 Курс является вводным в метавычисления --- области информатики, занимающейся проектированием мета-программ, т.е. программ, манипулирующих другими программами как данными, в том числе, порождая последние как результат своей работы.
 Эта область тесно связана как с программными оптимизациями и семантиками языков программирования, так и с автоматической генерацией программ.
 Слушатели знакомятся с понятиями проекций Футамуры, специализации программ, суперкомпиляции, дистилляции и т.п.
 На практике ожидается, что каждый реализует как самоприменимый специализатор игрушечного Pascal-подобного языка, способный пораждать компиляторы языков программированрия по их интерпретаторам, так и позитивный суперкомпилятор простого функционального.
 
-* [Открытая лекция по метавичислениям](https://youtu.be/1j4TEWOMoQs)
-* [Записи лекций](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
-* [Заметки и задания]()
+Videos:
+* [Open lecture / Открытая лекция по метавичислениям (RU)](https://youtu.be/1j4TEWOMoQs)
+* [Lecutres records / Записи лекций (RU)](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
+* [Some tasks and Notes]()
 
-Прочтения:
+Past readings:
 
-| Место | Время | Роль |
+| Place | Year | Role |
 | :--- | :--- | :--- |
-| HSE + IFMO | 2021 | Лектор + Практик |
-| HSE + IFMO | 2020 | Лектор + Практик |
-| HSE + IFMO | 2019 | Лектор + Практик |
-| HSE + IFMO | 2018 | Лектор + Практик |
-| AU  | 2017 | Лектор + Практик |
-| AU  | 2016 | Лектор + Практик |
+| HSE + IFMO | 2021 | Lectures + practices |
+| HSE + IFMO | 2020 | Lectures + practices |
+| HSE + IFMO | 2019 | Lectures + practices |
+| HSE + IFMO | 2018 | Lectures + practices |
+| AU  | 2017 | Lectures + practices |
+| AU  | 2016 | Lectures + practices |
 |<img width=150/>|<img width=100/>|<img width=120/>|
 
-Рекомендуемый список литературы:
+Bibliography:
 
 * [Partial Evaluation and Automatic Program Generation](https://www.itu.dk/people/sestoft/pebook/)
-*
+* [TODO]
 
+---
 
-## Введения в компиляторы (Языки программирования и компиляторы)
+## Introduction into compilers (Введения в компиляторы / Языки программирования и компиляторы)
 
+[ENG]
+The course is an introduction to the field of programming languages, compilers, and other language tools.
+The course includes some basic concepts and approaches in the area, such as the operational semantics of programming languages, intermediate representation of programs, interpretation, program transformations, etc.
+It also shows how these concepts and approaches solve important and interesting practical problems.
+It is assumed that students in the process of completing assignments by the end of the course will implement a full-fledged compiler to machine code for a simple but fully functional imperative programming language ([Lama](https://github.com/JetBrains-Research/Lama)) containing expressions, assignments, control constructs, higher-order functions, and dynamic data structures.
+The same language is used as the main source language throughout the course.
+
+* [Paper describing the course (TFPIE’21): Reimplementing the Wheel: Teaching Compilers with a Small Self-Contained One](https://arxiv.org/pdf/2207.12698.pdf)
+
+[RUS]
 Данный курс представляет собой начальное введение в область языков программирования, компиляторов и других языковых инструментов.
 Курс включает некоторые основные понятия и подходы в данной области, такие, как операционная семантика языков программирования, промежуточное представление программ, интерпретация, преобразования программ и т.д.,
 а также показывается, как эти понятия и подходы решают важные и интересные практические задачи.
 Предполагается, что слушатели в процессе выполнения заданий к концу курса реализуют полноценный компилятор в машинный код для простого, но вполне функционального языка императивного программирования ([Lama](https://github.com/JetBrains-Research/Lama)), содержащего выражения, присваивания, конструкции управления, функции высших порядков и динамические структуры данных.
 В качестве основного инструмента в рамках курса будет использован тот же самый язык.
 
+(RU)
 * [Более подробное описание и программа курса](https://my.compscicenter.ru/courses/2021-spring/1.879-compilers/)
-* [Записи лекций 1](https://www.youtube.com/playlist?list=PL1X5sYUeXRNfA3rJ6fnSekJALaqvW094-)
-* [Записи лекций 2](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdvV1DxB2j5F-O3XlkqptcD)
+* [Lecture records 1 / Записи лекций 1](https://www.youtube.com/playlist?list=PL1X5sYUeXRNfA3rJ6fnSekJALaqvW094-)
+* [Lecture records 2 / Записи лекций 2](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdvV1DxB2j5F-O3XlkqptcD)
 
-Прочтения (совместно с [Дмитрием Юрьевичем Булычевым](https://research.jetbrains.org/researchers/db/)):
+Past readings (toogether with [Dmitri Boulytchev (Дмитрий Юрьевич Булычев)](https://github.com/dboulytchev/)):
 
-| Место | Время | Роль |
+| Place | Year | Role |
 | :--- | :--- | :--- |
-| HSE + IFMO | Осень 2021 | Практик + Лектор (2 шт.) |
-| CSC + ETU  | Весна 2021 | Практик |
-| HSE + IFMO | Осень 2020 | Лектор + Практик |
-| ФМКН СПбГУ | Осень 2020 | Лектор + Практик |
-| CSC + ETU  | Весна 2020 | Практик + Лектор (2 шт.) |
-| HSE + IFMO | Осень 2019 | Лектор + Практик |
-| CSC + ETU  | Весна 2019 | Практик + Лектор (2 шт.) |
-| HSE + IFMO | Осень 2018 | Практик + Лектор (2 шт.) |
-| CSC + ETU  | Весна 2018 | Лектор + Практик |
-| AU         | Осень 2017 | Практик |
+| HSE + IFMO | Autumn 2021 | Lectures + practices (2 times) |
+| CSC + ETU  | Spring 2021 | Practices |
+| HSE + IFMO | Autumn 2020 | Lectures + practices |
+| FMCS SPbU  | Autumn 2020 | Lectures + practices |
+| CSC + ETU  | Spring 2020 | Lectures + practices (2 times) |
+| HSE + IFMO | Autumn 2019 | Lectures + practices |
+| CSC + ETU  | Spring 2019 | Lectures + practices (2 times) |
+| HSE + IFMO | Autumn 2018 | Lectures + practices (2 times) |
+| CSC + ETU  | Spring 2018 | Lectures + practices |
+| AU         | Autumn 2017 | Practices |
 |<img width=150/>|<img width=120/>|<img width=200/>|
 
-Технологии и инструменты построения языковых процессоров (совместно с [Антоном Викторовичем Подкопаевым](https://podkopaev.net/)):
+Past readings (Language processors design technologies and tools / Технологии и инструменты построения языковых процессоров (toogether with [Anton Podkopaev (Антон Викторович Подкопаев)](https://podkopaev.net/)):
 
-| Место | Время | Роль |
+| Place | Year | Role |
 | :--- | :--- | :--- |
-| IFMO | Осень 2017 | Лектор + Практик |
-| AU   | Осень 2016 | Лектор + Практик |
-| IFMO | Осень 2016 | Лектор + Практик |
-| IFMO | Осень 2015 | Лектор + Практик |
+| IFMO | Осень 2017 | Lectures + practices |
+| AU   | Осень 2016 | Lectures + practices |
+| IFMO | Осень 2016 | Lectures + practices |
+| IFMO | Осень 2015 | Lectures + practices |
 |<img width=100/>|<img width=100/>|<img width=120/>|
 
-Рекомендуемый список литературы:
+---
 
-*
-*
+## Other
 
-
-## Другие
-
-| Место | Время | Место | Роль |
+| Course | Year | Place | Role |
 | :--- | :--- | :--- | :--- |
-| Математическая логика в Информатике | Весна 2021 | ФМКН СПбГУ | Практик |
-| Операционные Системы | Весна 2021 | ФМКН СПбГУ | Практик |
-| Основы Linux | Осень 2020 | ФМКН СПбГУ | Лектор + Практик |
-| Основы Программирования | Осень 2020 | ФМКН СПбГУ | Практик |
-| Архитектура компьютерных систем | Осень 2020 | ФМКН СПбГУ | Практик |
-| Введение в ООП | Осень 2020 | ФМКН СПбГУ | Практик |
+| Mathematical logic in Computer Science (Математическая логика в Информатике) | Spring 2021 | FMCS SPbU | Practices |
+| Opeartial Systems (Операционные Системы) | Spring 2021 | FMCS SPbU | Practices |
+| Linux Basics (Основы Linux) | Autumn 2020 | FMCS SPbU | Lectures + practices |
+| Programming Basics (Основы Программирования) | Autumn 2020 | FMCS SPbU | Practices |
+| Computer Architecture (Архитектура компьютерных систем) | Autumn 2020 | FMCS SPbU | Practices |
+| Introduction into OOP (Введение в ООП) | Autumn 2020 | FMCS SPbU | Practices |
 |<img width=400/>|<img width=120/>|<img width=120/>| |
+
+---
+

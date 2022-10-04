@@ -10,6 +10,14 @@ I wrote my [PhD thesis](https://disser.spbu.ru/files/disser2/disser/5cp32FwxGH.p
 I graduated from the St. Petersburg State University, Mathematics and Mechanics Faculty, Department of Computer Science in 2014.
 Nowadays, I am a senior researcher at [*Programming Languages and Tools Lab*](https://research.jetbrains.org/groups/plt_lab/), [JetBrains Research](https://research.jetbrains.org/), The Netehrlands.
 
-# Curriculum Vitae
+---
 
-[cv link]({{ site.baseurl }}{% link /assets/cv.pdf %})
+***Areas of interest***:
+* Design, implementation and analysis of programming languages
+* Meta-programming, meta-computations, and program transformations
+* Compilers and program optimizations
+* Programming languages semantics
+* Types in programming languages
+* Functional programming
+* Relational & logic programming
+* Certified programming
