@@ -43,10 +43,12 @@ The project aims to bring new features in ML-like languages and produce some pat
 
 ### Actual topics/projects:
 * ML to .Net\\
-  Long-term goal: port OCaml with all the features into .Net\\
+  Long-term goal: port OCaml with all the features into .Net   {% comment %} .Net has RTTI ;) {% endcomment %} \\
   Short-term goal: miniML & SML to .Net \\
-  Useful links: [ocamil](https://github.com/nojb/ocamil)
-* Patching polymorphic variants for OCaml (see [here](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.4305&rep=rep1&type=pdf))
+  Useful links: [ocamil](https://github.com/nojb/ocamil), [smldotnet](https://github.com/kaveman-/smldotnet), [a paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.4305&rep=rep1&type=pdf)
+  {% comment %} [kakadu's parser for miniML](https://gitlab.com/Kakadu/fp2020-materials-private/-/tree/master/miniml) {% endcomment %}
+* Patching polymorphic variants for OCaml\\
+  Usefull links: [a paper](https://arxiv.org/pdf/1606.01106.pdf), [Tommaso Petrucciani PhD thesis](https://tel.archives-ouvertes.fr/tel-02119930/document) and [prototype](https://gitlab.math.univ-paris-diderot.fr/petrucciani/setvariants/-/tree/master)
  
 ***Knowledge in the following areas would be a plus***:
 * Basic knowledge in programming languages theory
@@ -78,6 +80,7 @@ The aim of this project is research and practical application of metacomputation
 * Experience with functional programming paradigm (Haskell/OCaml/Scheme/…) 
 * Some knowledge in automatic program transformation and generation
 
+---
 
 {% comment %}
 Здесь представлен список тем для студенческих проектов, курсовых, дипломов и выпускных работ.
