@@ -44,7 +44,8 @@ The project aims to bring new features in ML-like languages and produce some pat
 ### Actual topics/projects:
 * ML to .Net\\
   Long-term goal: port OCaml with all the features into .Net\\
-  Short-term goal: miniML & SML to .Net 
+  Short-term goal: miniML & SML to .Net \\
+  Useful links: [ocamil](https://github.com/nojb/ocamil)
 * Patching polymorphic variants for OCaml (see [here](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.4305&rep=rep1&type=pdf))
  
 ***Knowledge in the following areas would be a plus***:
