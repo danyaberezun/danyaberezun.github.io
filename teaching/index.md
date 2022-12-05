@@ -17,10 +17,21 @@ Readings (toogether with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
-| [Jacobs University](https://www.jacobs-university.de/) | Autumn 2022 | Lectures |
+| [Jacobs University](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer |
 |<img width=150/>|<img width=100/>|<img width=120/>|
 
-[TODO: matherials and links]
+Lectures:
+
+- [Intro, ADT]({{ site.baseurl }}{% link /teaching/assets/FP/2022/intro_adt.pdf %})
+- [Lazy, Forcing, Tail Recursion]({{ site.baseurl }}{% link /teaching/assets/FP/2022/haskell-specifics.pdf %})
+- [Functional Data Structures]({{ site.baseurl }}{% link /teaching/assets/FP/2022/functional-data-structures.pdf %})
+- [Lambda-calculus: basics]({{ site.baseurl }}{% link /teaching/assets/FP/2022/lcalc2.pdf %})
+- [Lambda-calculus: reduction strategies, CR]({{ site.baseurl }}{% link /teaching/assets/FP/2022/reductions.pdf %})
+- [Simple types, System F, Hindley--Milner]({{ site.baseurl }}{% link /teaching/assets/FP/2022/types.pdf %})
+- [Continuations]({{ site.baseurl }}{% link /teaching/assets/FP/2022/zippers_lens_prism.pdf %})
+- [Zippers and "Optics"]({{ site.baseurl }}{% link /teaching/assets/FP/2022/zippers_lens_prism.pdf %})
+
+[TODO: materials and links]
 
 ---
 
