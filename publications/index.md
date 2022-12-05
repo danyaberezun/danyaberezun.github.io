@@ -2,6 +2,8 @@
 layout: wide
 ---
 
+---
+
 # Selected pulications
 
 | Place | Title | Date | Authors | Other |
@@ -11,6 +13,7 @@ layout: wide
 | [PEPM'17](https://conf.researchr.org/program/pepm-2017/program-pepm-2017) | [*Compiling untyped lambda calculus to lower-level code by game semantics and partial evaluation (invited paper)*](https://dl.acm.org/doi/10.1145/3018882.3020004) | Jan '17 | ***D.Berezun*** and [Neil D. Jones](http://hjemmesider.diku.dk/~neil/) | [paper]({{ site.baseurl }}{% link /publications/assets/pepm_17.pdf %})|
 | <img width=70/> | <img width=400/> |<img width=70/> | | |
 
+---
 
 # ID's:
 
@@ -23,6 +26,7 @@ layout: wide
 | Google Scholar | [link](https://scholar.google.com/citations?hl=en&user=Hc5Wf3wAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate) |
 |<img width=30/>| |
 
+---
 
 # Full publication list
 
@@ -54,6 +58,7 @@ layout: wide
 
 [//]: <> (TODO: add 1) GC unpublished 2)Any with Semyon and Alexei in 21??)
 
+---
 
 # Organiser and PC member
 
@@ -61,6 +66,7 @@ layout: wide
 * PC co-chair [SEIM-2022](https://seim-conf.org/)
 * PC member [SEIM-2021](https://seim-conf.org/archive/2021/), [SEIM-2020](https://seim-conf.org/archive/2020/), [SEIM-2019](https://seim-conf.org/archive/2019/), [SEIM-2018](https://seim-conf.org/archive/2018/)
 
+---
 
 # Talks
 
@@ -69,3 +75,5 @@ layout: wide
 | Open lecture       | Metacomputations basics (основы метавычислений) | [video(rus)](https://youtu.be/Bn_86F7xdLs) |
 | JB-lab seminar     | Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма'' | [video](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7) |
 | MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | (RU) [part 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [part 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [part 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
+
+---
