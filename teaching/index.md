@@ -13,7 +13,7 @@ Students will learn how to create applications in a pure functional programming 
 Besides coding, students will learn how to test their programs, and how to use developers tools to debug and improve programs’ efficiency.
 The course provides solid ground for using the functional programming paradigm in mainstream languages and is a prerequisite for many programming languages theory courses.
 
-Readings (toogether with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
+Readings (together with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
@@ -42,16 +42,16 @@ The course is an introduction into metacomputations, a field of computer science
 Meta-program is a program that manipulate other programs as data, including generating other programs as a result of its work.
 The area is closely related to program optimizations and programming languages semantic, as well as exposure to program generation.
 Students are introduced to the concepts of Futamura projections, program specialization, supercompilation, distillation and so on.
-In practice, it is expected that both a self-applied tiny Pascal-like language specializer capable of generating programming language compilers by their interpreters and a positive supercompiler of simple functional languge would be implemented.
+In practice, it is expected that both a self-applied tiny Pascal-like language specializer capable of generating programming language compilers by their interpreters and a positive supercompiler of simple functional language would be implemented.
 
 [RUS]
 Курс является вводным в метавычисления --- области информатики, занимающейся проектированием мета-программ, т.е. программ, манипулирующих другими программами как данными, в том числе, порождая последние как результат своей работы.
 Эта область тесно связана как с программными оптимизациями и семантиками языков программирования, так и с автоматической генерацией программ.
 Слушатели знакомятся с понятиями проекций Футамуры, специализации программ, суперкомпиляции, дистилляции и т.п.
-На практике ожидается, что каждый реализует как самоприменимый специализатор игрушечного Pascal-подобного языка, способный пораждать компиляторы языков программированрия по их интерпретаторам, так и позитивный суперкомпилятор простого функционального.
+На практике ожидается, что каждый реализует как самоприменимый специализатор игрушечного Pascal-подобного языка, способный порождать компиляторы языков программирования по их интерпретаторам, так и позитивный суперкомпилятор простого функционального.
 
 Videos:
-* [Open lecture / Открытая лекция по метавичислениям (RU)](https://youtu.be/1j4TEWOMoQs)
+* [Open lecture / Открытая лекция по метавычислениям (RU)](https://youtu.be/1j4TEWOMoQs)
 * [Lecutres records / Записи лекций (RU)](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
 * [Some tasks and Notes]()
 
@@ -97,7 +97,7 @@ The same language is used as the main source language throughout the course.
 * [Lecture records 1 / Записи лекций 1](https://www.youtube.com/playlist?list=PL1X5sYUeXRNfA3rJ6fnSekJALaqvW094-)
 * [Lecture records 2 / Записи лекций 2](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdvV1DxB2j5F-O3XlkqptcD)
 
-Past readings (toogether with [Dmitri Boulytchev (Дмитрий Юрьевич Булычев)](https://github.com/dboulytchev/)):
+Past readings (together with [Dmitri Boulytchev (Дмитрий Юрьевич Булычев)](https://github.com/dboulytchev/)):
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@ Past readings (toogether with [Dmitri Boulytchev (Дмитрий Юрьевич 
 | AU         | Autumn 2017 | Practices |
 |<img width=150/>|<img width=120/>|<img width=200/>|
 
-Past readings (Language processors design technologies and tools / Технологии и инструменты построения языковых процессоров (toogether with [Anton Podkopaev (Антон Викторович Подкопаев)](https://podkopaev.net/)):
+Past readings (Language processors design technologies and tools / Технологии и инструменты построения языковых процессоров (together with [Anton Podkopaev (Антон Викторович Подкопаев)](https://podkopaev.net/)):
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
@@ -130,7 +130,7 @@ Past readings (Language processors design technologies and tools / Технол�
 | Course | Year | Place | Role |
 | :--- | :--- | :--- | :--- |
 | Mathematical logic in Computer Science (Математическая логика в Информатике) | Spring 2021 | FMCS SPbU | Practices |
-| Opeartial Systems (Операционные Системы) | Spring 2021 | FMCS SPbU | Practices |
+| Operational Systems (Операционные Системы) | Spring 2021 | FMCS SPbU | Practices |
 | Linux Basics (Основы Linux) | Autumn 2020 | FMCS SPbU | Lectures + practices |
 | Programming Basics (Основы Программирования) | Autumn 2020 | FMCS SPbU | Practices |
 | Computer Architecture (Архитектура компьютерных систем) | Autumn 2020 | FMCS SPbU | Practices |
