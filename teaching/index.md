@@ -28,7 +28,7 @@ Lectures:
 - [Lambda-calculus: basics]({{ site.baseurl }}{% link /teaching/assets/FP/2022/lcalc2.pdf %})
 - [Lambda-calculus: reduction strategies, CR]({{ site.baseurl }}{% link /teaching/assets/FP/2022/reductions.pdf %})
 - [Simple types, System F, Hindley--Milner]({{ site.baseurl }}{% link /teaching/assets/FP/2022/types.pdf %})
-- [Continuations]({{ site.baseurl }}{% link /teaching/assets/FP/2022/zippers_lens_prism.pdf %})
+- [Continuations]({{ site.baseurl }}{% link /teaching/assets/FP/2022/continuations.pdf %})
 - [Zippers and "Optics"]({{ site.baseurl }}{% link /teaching/assets/FP/2022/zippers_lens_prism.pdf %})
 
 [TODO: materials and links]
