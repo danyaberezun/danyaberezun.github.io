@@ -15,10 +15,11 @@ The course provides solid ground for using the functional programming paradigm i
 
 Readings (together with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
 
-| Place | Year | Role |
-| :--- | :--- | :--- |
-| [Jacobs University](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer |
-|<img width=150/>|<img width=100/>|<img width=120/>|
+| Place | Year | Role | Comments |
+| :--- | :--- | :--- | :--- |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices | Short week intensive |
+| [Jacobs University(now Constructor University)](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer | |
+|<img width=150/>|<img width=100/>|<img width=120/>| <img width=150/>|
 
 Lectures:
 
@@ -101,6 +102,8 @@ Past readings (together with [Dmitri Boulytchev (Дмитрий Юрьевич �
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
+| [Constructor University](https://www.jacobs-university.de/) | Spring 2023 | Lectures + practices |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices |
 | HSE + IFMO | Autumn 2021 | Lectures + practices (2 times) |
 | CSC + ETU  | Spring 2021 | Practices |
 | HSE + IFMO | Autumn 2020 | Lectures + practices |

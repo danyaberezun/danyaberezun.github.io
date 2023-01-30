@@ -15,20 +15,57 @@ Please, do not hesitate to contact me for more details.
 
 ### Description
 
-[OCanren](https://ocanren.readthedocs.io/en/latest/) is a strongly-typed embedding of [miniKanren](http://minikanren.org) relational programming language into [OCaml](http://ocaml.org).
+[OCanren](https://ocanren.readthedocs.io/en/latest/) is a strongly-typed embedding of [miniKanren](http://minikanren.org/) relational programming language into [OCaml](http://ocaml.org).
 Nowadays, the implementation of OCanren strongly resembles [faster-miniKanren](https://github.com/michaelballantyne/faster-miniKanren).
 Previous implementation was based on [microKanren](http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf) with [disequality constraints](http://scheme2011.ucombinator.org/papers/Alvis2011.pdf).
 
 ### Actual topics/projects:
+* [Easy, introduction project] Implement a set of useful programs on OCanren; for example, a schedule generator for a university that takes into account the restrictions and wishes of the university and teachers
 * Visualiser of miniKanren execution
-* OCanren/miniKanren profiler
+* OCanren/miniKanren profiler gathering information about relations calls
 * Dynamic compiler for OCanren
- 
+* **OCanren search parallelization**.  The crucial part of of any relational programming language is the search of answers. The goal of the project is to research and development of a suitable way to parallelize the search in order to speed it up.
+* Enrich [Haskell^{-1}](https://www-ps.informatik.uni-kiel.de/~fte/papers/Haskell-1.pdf) approach with miniKanren interleaving and compare with existing miniKanren implementations
+* Embed minikanren into mainstream language like Kotlin
+
+Useful links:
+* [Fail Fast and Profile On: Towards a miniKanren Profiler](https://drive.google.com/file/d/1ldMlExvR7Sb-M5wJVgayzHokMxinuWYg/view)
+* [Some criteria for implementations of conjunction and disjunction in microKanren](https://drive.google.com/file/d/18OzQurXbmoeFn-bJUDZCZ-FPkGwo5mFL/view)
+* [Efficient fair conjunction for structurally-recursive relations](https://popl21.sigplan.org/details/pepm-2021-papers/9/Efficient-Fair-Conjunction-for-Structurally-Recursive-Relations)
+
 ***Knowledge in the following areas would be a plus***:
 * Basic knowledge in programming languages theory
 * Basic knowledge in programming languages formal semantics
-* Experience with functional programming paradigm (Haskell/OCaml/Scheme/…) 
+* Experience with functional programming paradigm (Haskell/OCaml/Scheme/Racket/...) 
 * Basic knowledge of logic/relational programming
+
+---
+
+# Lama compiler and infrastructure
+
+***Keywords***: compilers, semantics, static analisys, code generation
+
+[Lama](https://github.com/PLTools/Lama) is a programming language developed by JetBrains Research for educational purposes (as an exemplary language to introduce the domain of programming languages, compilers, and tools).
+It currently exists for x86_64 architecture only.
+There are many directions for its (and its infrastructure) development, both scientific and purely technical:
+
+* Implement a lsp-server (together with a basic plugin for VSCode/IntelliJ which runs the server for all .lama files); useful links: [ocaml-lsp](https://github.com/ocaml/ocaml-lsp), [lsp-spec](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
+* Implement a native compiler to ARM (32 and/or 64) [the task can be naturally extended with advanced register allocation]
+* Implement a native compiler to x86_64 [the task can be naturally extended with advanced register allocation]
+* Lama memory management; current garbage collector is a tiny simplest mark-and-copy stop-the-world algorithm; it can be improved in a number of ways: mark-and-compact, generational (partial) GC, concurrent and/or parallel GC, ...
+* Support compilation into OCaml; useful link: [Malfunctional](https://web.archive.org/web/20170725050716/https://www.cl.cam.ac.uk/~sd601/papers/malfunction.pdf)
+* Develop a weak (or at least gradual) type system
+* Compiler into LLVM-IR; This task can be extended later to support specialization of the generated IR subset
+* Implement a tool set for support different static analysis approaches
+* Partial evaluator for generated x86_32 GASM subset
+* ...
+
+***Requirements***
+
+    Basic knowledge of functional programming
+    The very basic knowledge about compiler design
+    Ability to read documentation and papers in English
+    Desire to work and learn something new =)
 
 ---
 
