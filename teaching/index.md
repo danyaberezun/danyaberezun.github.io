@@ -34,7 +34,7 @@ Lectures:
 
 ---
 
-## Introduction into Metacomputations (Введение в метавычисления)
+## Metacomputations
 
 [ENG]
 The course is an introduction into metacomputations, a field of computer science that deals meta-programs design.
@@ -43,7 +43,8 @@ The area is closely related to program optimizations and programming languages s
 Students are introduced to the concepts of Futamura projections, program specialization, supercompilation, distillation and so on.
 In practice, it is expected that both a self-applied tiny Pascal-like language specializer capable of generating programming language compilers by their interpreters and a positive supercompiler of simple functional language would be implemented.
 
-[RUS]
+***[RUS] Введение в метавычисления***
+
 Курс является вводным в метавычисления --- области информатики, занимающейся проектированием мета-программ, т.е. программ, манипулирующих другими программами как данными, в том числе, порождая последние как результат своей работы.
 Эта область тесно связана как с программными оптимизациями и семантиками языков программирования, так и с автоматической генерацией программ.
 Слушатели знакомятся с понятиями проекций Футамуры, специализации программ, суперкомпиляции, дистилляции и т.п.
