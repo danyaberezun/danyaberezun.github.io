@@ -1,3 +1,4 @@
+
 ---
 layout: default
 ---
@@ -64,10 +65,10 @@ There are many directions for its (and its infrastructure) development, both sci
 
 ***Requirements***
 
-    Basic knowledge of functional programming
-    The very basic knowledge about compiler design
-    Ability to read documentation and papers in English
-    Desire to work and learn something new =)
+* Basic knowledge of functional programming
+* The very basic knowledge about compiler design
+* Ability to read documentation and papers in English
+* Desire to work and learn something new =)
 
 ---
 
