@@ -4,22 +4,22 @@ layout: default
 
 ---
 
-## Functional programming (Введение в функциональное программирование)
+## Intoruction to Functional programming
 
 The course is an introduction to functional programming.
 We will discuss some basic concepts and approaches in this area, such as lambda calculus and reduction orders, lazy evaluation, type systems and type inference, polymorphism, inductive and functional data structures, folds, memoization, continuations, algebraic data structures, functors, monads, recursion schemes, proof of program properties, etc.
 We will also see how these concepts and approaches solve important and interesting practical problems.
-Students will learn how to create applications in a pure functional programming language Haskell.
+Students will learn how to create applications in a pure functional programming language **Haskell**.
 Besides coding, students will learn how to test their programs, and how to use developers tools to debug and improve programs’ efficiency.
 The course provides solid ground for using the functional programming paradigm in mainstream languages and is a prerequisite for many programming languages theory courses.
 
 Readings (together with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
 
-| Place | Year | Role | Comments |
-| :--- | :--- | :--- | :--- |
-| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices | Short week intensive |
-| [Jacobs University(now Constructor University)](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer | |
-|<img width=150/>|<img width=100/>|<img width=120/>| <img width=150/>|
+| Place | Year | Role | Comments | Matherials |
+| :--- | :--- | :--- | :--- | :--- |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices | Short week intensive | |
+| [Jacobs University<br />(now Constructor University)](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer | | Lectures (see below) <br /> [Practice](https://github.com/kajigor/fp-2022-jub-fall/) |
+|<img width=150/>|<img width=100/>|<img width=120/>| <img width=150/>| <img width=150/>|
 
 Lectures:
 
@@ -31,8 +31,6 @@ Lectures:
 - [Simple types, System F, Hindley--Milner]({{ site.baseurl }}{% link /teaching/assets/FP/2022/types.pdf %})
 - [Continuations]({{ site.baseurl }}{% link /teaching/assets/FP/2022/continuations.pdf %})
 - [Zippers and "Optics"]({{ site.baseurl }}{% link /teaching/assets/FP/2022/zippers_lens_prism.pdf %})
-
-[TODO: materials and links]
 
 ---
 
@@ -51,12 +49,11 @@ In practice, it is expected that both a self-applied tiny Pascal-like language s
 Слушатели знакомятся с понятиями проекций Футамуры, специализации программ, суперкомпиляции, дистилляции и т.п.
 На практике ожидается, что каждый реализует как самоприменимый специализатор игрушечного Pascal-подобного языка, способный порождать компиляторы языков программирования по их интерпретаторам, так и позитивный суперкомпилятор простого функционального.
 
-Videos:
+**Videos**:
 * [Open lecture / Открытая лекция по метавычислениям (RU)](https://youtu.be/1j4TEWOMoQs)
 * [Lecutres records / Записи лекций (RU)](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
-* [Some tasks and Notes]()
 
-Past readings:
+**Past readings**:
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
@@ -68,14 +65,21 @@ Past readings:
 | AU  | 2016 | Lectures + practices |
 |<img width=150/>|<img width=100/>|<img width=120/>|
 
-Bibliography:
+**Bibliography**:
 
-* [Partial Evaluation and Automatic Program Generation](https://www.itu.dk/people/sestoft/pebook/)
-* [TODO]
+* [N.D. Jones, C.K. Gomard, and P. Sestoft. Partial Evaluation and Automatic Program Generation](https://www.itu.dk/people/sestoft/pebook/)
+* Partial Evaluation Practice and Theory, Lecture Notes in Computer Science, J.Hatcliff, T.Morgensen, P.Thiemann
+* Logic-Based Program Synthesis and Transformation, editor Maurizio Gabbrielli
+* K.Launchbury, Projection factorisations in partial evaluation
+* [A series of PEPM workshop proceedings](https://popl23.sigplan.org/home/PEPM-2023)
+* [A series of META workshop proceedings](http://meta2016.pereslavl.ru/index.html)
+* Staged multi-result supercompilation: Filtering by transformation by Sergei Grechanik, Ilya Klyuchnikov, Sergei Romanenko
+* Geoff W. Hamilton. The Next 700 Program Transformers. LOPSTR 2021: 113-134
+
 
 ---
 
-## Introduction into compilers (Введения в компиляторы / Языки программирования и компиляторы)
+## Compilers
 
 [ENG]
 The course is an introduction to the field of programming languages, compilers, and other language tools.
@@ -86,7 +90,27 @@ The same language is used as the main source language throughout the course.
 
 * [Paper describing the course (TFPIE’21): Reimplementing the Wheel: Teaching Compilers with a Small Self-Contained One](https://arxiv.org/pdf/2207.12698.pdf)
 
-[RUS]
+Past readings:
+
+| Place | Year | Role |
+| :--- | :--- | :--- |
+| [Constructor University](https://www.jacobs-university.de/) | Spring 2023 | Lectures + practices |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices |
+|<img width=150/>|<img width=120/>|<img width=200/>|
+
+**Bibliography**:
+
+* [A brilliant list of books on compiler construction](gcc.gnu.org/wiki/ListOfCompilerBooks)
+* [Compiler GCC](gcc.gnu.org)
+* [Infrastructure LLVM](llvm.org)
+* N.Wirth. Compiler Construction
+* F.Nielson, H-R.Nielson. Semantics with Applications. A formal introduction
+* D.Knuth. Semantics of context-free languages
+* G.Hutton, E.Meijer. Monadic parser combinators
+* [x86 instruction set description](http://www.felixcloutier.com/x86)
+
+***[RUS] Введения в компиляторы / Языки программирования и компиляторы***
+
 Данный курс представляет собой начальное введение в область языков программирования, компиляторов и других языковых инструментов.
 Курс включает некоторые основные понятия и подходы в данной области, такие, как операционная семантика языков программирования, промежуточное представление программ, интерпретация, преобразования программ и т.д.,
 а также показывается, как эти понятия и подходы решают важные и интересные практические задачи.
@@ -102,8 +126,6 @@ Past readings (together with [Dmitri Boulytchev (Дмитрий Юрьевич �
 
 | Place | Year | Role |
 | :--- | :--- | :--- |
-| [Constructor University](https://www.jacobs-university.de/) | Spring 2023 | Lectures + practices |
-| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices |
 | HSE + IFMO | Autumn 2021 | Lectures + practices (2 times) |
 | CSC + ETU  | Spring 2021 | Practices |
 | HSE + IFMO | Autumn 2020 | Lectures + practices |
