@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-## Intoruction to Functional programming
+## Introduction to Functional programming
 
 The course is an introduction to functional programming.
 We will discuss some basic concepts and approaches in this area, such as lambda calculus and reduction orders, lazy evaluation, type systems and type inference, polymorphism, inductive and functional data structures, folds, memoization, continuations, algebraic data structures, functors, monads, recursion schemes, proof of program properties, etc.
@@ -15,11 +15,11 @@ The course provides solid ground for using the functional programming paradigm i
 
 Readings (together with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
 
-| Place | Year | Role | Comments | Matherials |
-| :--- | :--- | :--- | :--- | :--- |
-| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices | Short week intensive | |
-| [Jacobs University<br />(now Constructor University)](https://www.jacobs-university.de/) | Autumn 2022 | Lecturer | | Lectures (see below) <br /> [Practice](https://github.com/kajigor/fp-2022-jub-fall/) |
-|<img width=150/>|<img width=100/>|<img width=120/>| <img width=150/>| <img width=150/>|
+| Place                                                                                    | Year             | Role                 | Comments             | Materials                                                                            |
+| :--------------------------------------------------------------------------------------- | :--------------- | :------------------- | :------------------- | :----------------------------------------------------------------------------------- |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/)             | Spring 2023      | Lectures + practices | Short week intensive |                                                                                      |
+| [Jacobs University<br />(now Constructor University)](https://www.jacobs-university.de/) | Autumn 2022      | Lecturer             |                      | Lectures (see below) <br /> [Practice](https://github.com/kajigor/fp-2022-jub-fall/) |
+| <img width=150/>                                                                         | <img width=100/> | <img width=120/>     | <img width=150/>     | <img width=150/>                                                                     |
 
 Lectures:
 
@@ -52,19 +52,19 @@ In practice, it is expected that both a self-applied tiny Pascal-like language s
 
 **Videos**:
 * [Open lecture / Открытая лекция по метавычислениям (RU)](https://youtu.be/1j4TEWOMoQs)
-* [Lecutres records / Записи лекций (RU)](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
+* [Lectures records / Записи лекций (RU)](https://www.youtube.com/playlist?list=PL1X5sYUeXRNdCAY8LcMARSbyn2n20KTrm)
 
 **Past readings**:
 
-| Place | Year | Role |
-| :--- | :--- | :--- |
-| HSE + IFMO | 2021 | Lectures + practices |
-| HSE + IFMO | 2020 | Lectures + practices |
-| HSE + IFMO | 2019 | Lectures + practices |
-| HSE + IFMO | 2018 | Lectures + practices |
-| AU  | 2017 | Lectures + practices |
-| AU  | 2016 | Lectures + practices |
-|<img width=150/>|<img width=100/>|<img width=120/>|
+| Place            | Year             | Role                 |
+| :--------------- | :--------------- | :------------------- |
+| HSE + IFMO       | 2021             | Lectures + practices |
+| HSE + IFMO       | 2020             | Lectures + practices |
+| HSE + IFMO       | 2019             | Lectures + practices |
+| HSE + IFMO       | 2018             | Lectures + practices |
+| AU               | 2017             | Lectures + practices |
+| AU               | 2016             | Lectures + practices |
+| <img width=150/> | <img width=100/> | <img width=120/>     |
 
 **Bibliography**:
 
@@ -93,11 +93,11 @@ The same language is used as the main source language throughout the course.
 
 Past readings:
 
-| Place | Year | Role |
-| :--- | :--- | :--- |
-| [Constructor University](https://www.jacobs-university.de/) | Spring 2023 | Lectures + practices |
-| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023 | Lectures + practices |
-|<img width=150/>|<img width=120/>|<img width=200/>|
+| Place                                                                        | Year             | Role                 |
+| :--------------------------------------------------------------------------- | :--------------- | :------------------- |
+| [Constructor University](https://www.jacobs-university.de/)                  | Spring 2023      | Lectures + practices |
+| [Neapolis University](https://www.nup.ac.cy/department-of-computer-science/) | Spring 2023      | Lectures + practices |
+| <img width=150/>                                                             | <img width=120/> | <img width=200/>     |
 
 **Bibliography**:
 
@@ -125,43 +125,43 @@ Past readings:
 
 Past readings (together with [Dmitri Boulytchev (Дмитрий Юрьевич Булычев)](https://github.com/dboulytchev/)):
 
-| Place | Year | Role |
-| :--- | :--- | :--- |
-| HSE + IFMO | Autumn 2021 | Lectures + practices (2 times) |
-| CSC + ETU  | Spring 2021 | Practices |
-| HSE + IFMO | Autumn 2020 | Lectures + practices |
-| FMCS SPbU  | Autumn 2020 | Lectures + practices |
-| CSC + ETU  | Spring 2020 | Lectures + practices (2 times) |
-| HSE + IFMO | Autumn 2019 | Lectures + practices |
-| CSC + ETU  | Spring 2019 | Lectures + practices (2 times) |
-| HSE + IFMO | Autumn 2018 | Lectures + practices (2 times) |
-| CSC + ETU  | Spring 2018 | Lectures + practices |
-| AU         | Autumn 2017 | Practices |
-|<img width=150/>|<img width=120/>|<img width=200/>|
+| Place            | Year             | Role                           |
+| :--------------- | :--------------- | :----------------------------- |
+| HSE + IFMO       | Autumn 2021      | Lectures + practices (2 times) |
+| CSC + ETU        | Spring 2021      | Practices                      |
+| HSE + IFMO       | Autumn 2020      | Lectures + practices           |
+| FMCS SPbU        | Autumn 2020      | Lectures + practices           |
+| CSC + ETU        | Spring 2020      | Lectures + practices (2 times) |
+| HSE + IFMO       | Autumn 2019      | Lectures + practices           |
+| CSC + ETU        | Spring 2019      | Lectures + practices (2 times) |
+| HSE + IFMO       | Autumn 2018      | Lectures + practices (2 times) |
+| CSC + ETU        | Spring 2018      | Lectures + practices           |
+| AU               | Autumn 2017      | Practices                      |
+| <img width=150/> | <img width=120/> | <img width=200/>               |
 
 Past readings (Language processors design technologies and tools / Технологии и инструменты построения языковых процессоров (together with [Anton Podkopaev (Антон Викторович Подкопаев)](https://podkopaev.net/)):
 
-| Place | Year | Role |
-| :--- | :--- | :--- |
-| IFMO | Осень 2017 | Lectures + practices |
-| AU   | Осень 2016 | Lectures + practices |
-| IFMO | Осень 2016 | Lectures + practices |
-| IFMO | Осень 2015 | Lectures + practices |
-|<img width=100/>|<img width=100/>|<img width=120/>|
+| Place            | Year             | Role                 |
+| :--------------- | :--------------- | :------------------- |
+| IFMO             | Осень 2017       | Lectures + practices |
+| AU               | Осень 2016       | Lectures + practices |
+| IFMO             | Осень 2016       | Lectures + practices |
+| IFMO             | Осень 2015       | Lectures + practices |
+| <img width=100/> | <img width=100/> | <img width=120/>     |
 
 ---
 
 ## Other
 
-| Course | Year | Place | Role |
-| :--- | :--- | :--- | :--- |
-| Mathematical logic in Computer Science (Математическая логика в Информатике) | Spring 2021 | FMCS SPbU | Practices |
-| Operational Systems (Операционные Системы) | Spring 2021 | FMCS SPbU | Practices |
-| Linux Basics (Основы Linux) | Autumn 2020 | FMCS SPbU | Lectures + practices |
-| Programming Basics (Основы Программирования) | Autumn 2020 | FMCS SPbU | Practices |
-| Computer Architecture (Архитектура компьютерных систем) | Autumn 2020 | FMCS SPbU | Practices |
-| Introduction into OOP (Введение в ООП) | Autumn 2020 | FMCS SPbU | Practices |
-|<img width=400/>|<img width=120/>|<img width=120/>| |
+| Course                                                                       | Year             | Place            | Role                 |
+| :--------------------------------------------------------------------------- | :--------------- | :--------------- | :------------------- |
+| Mathematical logic in Computer Science (Математическая логика в Информатике) | Spring 2021      | FMCS SPbU        | Practices            |
+| Operational Systems (Операционные Системы)                                   | Spring 2021      | FMCS SPbU        | Practices            |
+| Linux Basics (Основы Linux)                                                  | Autumn 2020      | FMCS SPbU        | Lectures + practices |
+| Programming Basics (Основы Программирования)                                 | Autumn 2020      | FMCS SPbU        | Practices            |
+| Computer Architecture (Архитектура компьютерных систем)                      | Autumn 2020      | FMCS SPbU        | Practices            |
+| Introduction into OOP (Введение в ООП)                                       | Autumn 2020      | FMCS SPbU        | Practices            |
+| <img width=400/>                                                             | <img width=120/> | <img width=120/> |                      |
 
 ---
 
