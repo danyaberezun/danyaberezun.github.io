@@ -2,13 +2,20 @@
 layout: wide
 ---
 
-<!-- # Current: -->
+# Current:
 
-<!-- | Name | Topic / Area |  Affiliation | Achivements | -->
-<!-- | :--- | :----------- |  :---------- | :---------- | -->
+| Name                 | Topic / Area                      | Affiliation      | Achivements      |
+| :------------------- | :-------------------------------- | :--------------- | :--------------- |
+| Sheremetov Egor      | Lama GC                           | CUB              |                  |
+| Kudriavtsev Fedor    | Lama to LLVM bitcode compilation  | CUB              |                  |
+| Assylkhanova Aigerim | miniKanren serach parallelization | CUB              |                  |
+| Savelev Artem        | Lama lsp-server                   | CUB              |                  |
+| Turov Vladimir       | miniKanren visualizer             | CUB              |                  |
+| Venediktov Roman     | OCaml polymorphic variants        | CUB              |                  |
+| <img width=150/>     | <img width=250/>                  | <img width=200/> | <img width=100/> |
+
 <!-- | Nikita Mishin | Semi-local algorithms | Master student, <br /> Faculty of mathematics<br /> and mechanics, SPbSU |  | -->
 <!-- | Alexei Tyurin | Linear algebra specialization | Master student,<br /> Faculty of mathematics <br /> and mechanics, SPbSU | ] | -->
-<!-- |<img width=150/>| <img width=250/> | <img width=200/> |<img width=100/> | -->
 
 # Former:
 
