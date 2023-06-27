@@ -25,6 +25,7 @@ Previous implementation was based on [microKanren](http://webyrd.net/scheme-2013
 * OCanren/miniKanren profiler gathering information about relations calls
 * Dynamic compiler for OCanren
 * **OCanren search parallelization**.  The crucial part of of any relational programming language is the search of answers. The goal of the project is to research and development of a suitable way to parallelize the search in order to speed it up.
+* Apply machine learning to the optimal order of conjuncts problem
 * Enrich [Haskell^{-1}](https://www-ps.informatik.uni-kiel.de/~fte/papers/Haskell-1.pdf) approach with miniKanren interleaving and compare with existing miniKanren implementations
 * Embed minikanren into mainstream language like Kotlin
 
@@ -36,7 +37,7 @@ Useful links:
 ***Knowledge in the following areas would be a plus***:
 * Basic knowledge in programming languages theory
 * Basic knowledge in programming languages formal semantics
-* Experience with functional programming paradigm (Haskell/OCaml/Scheme/Racket/...) 
+* Experience with functional programming paradigm (Haskell/OCaml/Scheme/Racket/...)
 * Basic knowledge of logic/relational programming
 
 ---
@@ -73,7 +74,7 @@ There are many directions for its (and its infrastructure) development, both sci
 
 # Patching OCaml and ML-like languages
 
-***Keywords***: functional programming, OCaml, compilation 
+***Keywords***: functional programming, OCaml, compilation
 
 ### Description
 
@@ -89,11 +90,11 @@ The project aims to bring new features in ML-like languages and produce some pat
 * OCaml to JVM
 * Patching polymorphic variants for OCaml\\
   Usefull links: [a paper](https://arxiv.org/pdf/1606.01106.pdf), [Tommaso Petrucciani PhD thesis](https://tel.archives-ouvertes.fr/tel-02119930/document) and [prototype](https://gitlab.math.univ-paris-diderot.fr/petrucciani/setvariants/-/tree/master)
- 
+
 ***Knowledge in the following areas would be a plus***:
 * Basic knowledge in programming languages theory
 * Basic knowledge in programming languages formal semantics
-* Experience with functional programming paradigm (Haskell/OCaml/Scheme/…) 
+* Experience with functional programming paradigm (Haskell/OCaml/Scheme/…)
 
 ---
 
@@ -123,7 +124,7 @@ The aim of this project is research and practical application of metacomputation
 ***Knowledge in the following areas would be a plus***:
 * Basic knowledge in programming languages theory
 * Basic knowledge in programming languages formal semantics
-* Experience with functional programming paradigm (Haskell/OCaml/Scheme/…) 
+* Experience with functional programming paradigm (Haskell/OCaml/Scheme/…)
 * Some knowledge in automatic program transformation and generation
 
 ---
@@ -136,13 +137,13 @@ The aim of this project is research and practical application of metacomputation
 Сводная табличка тем: (см. описание ниже)
 =========================================
 
-|№  | Тема | Область | Свободна? |
-|----------|:-------------|:------|:------:|
-| 1 | Semi-local LCS + oneAPI (DPC++) | Semi-Local LCS and SA | Да |
-| 2 | Semi-local LCS vs. Accel-alignment | Semi-Local LCS and SA | Да |
-| 3 | Beta-версия плагина для языка Vyper | Software Engineering / Vyper / Smart-Contracts | Нет |
-| 5 | Специализация низкоуровнего кода | Program Specialization | Да |
-| 6 | Специализация трассирующих call-by-name интерпретаторов | Specialization and Traversal-Based Normalization | Да |
+| №   | Тема                                                    | Область                                          | Свободна? |
+| --- | :------------------------------------------------------ | :----------------------------------------------- | :-------: |
+| 1   | Semi-local LCS + oneAPI (DPC++)                         | Semi-Local LCS and SA                            |    Да     |
+| 2   | Semi-local LCS vs. Accel-alignment                      | Semi-Local LCS and SA                            |    Да     |
+| 3   | Beta-версия плагина для языка Vyper                     | Software Engineering / Vyper / Smart-Contracts   |    Нет    |
+| 5   | Специализация низкоуровнего кода                        | Program Specialization                           |    Да     |
+| 6   | Специализация трассирующих call-by-name интерпретаторов | Specialization and Traversal-Based Normalization |    Да     |
 
 
 Описание тем
@@ -179,7 +180,7 @@ Vyper --- набирающий популярность язык для напи
 Есть частично готовый плагин для языка Vyper. Есть ряд issues, связанных с тем, что плагина нет в магазине плагинов в Intellij Platform.
 Задача стоит в расширении функциональности плагина, а также завершения его в минимальный work product (чтобы любой пользователь мог его установить через магазин).
 
-Студент в процессе разработки: 
+Студент в процессе разработки:
 
 1. научиться писать плагины под Intellij Platform
 2. прокачает написание кода на Kotlin
