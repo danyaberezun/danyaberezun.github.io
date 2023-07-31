@@ -49,8 +49,8 @@ layout: wide
 | 8 | [PEPM'17](https://conf.researchr.org/program/pepm-2017/program-pepm-2017) | [*Compiling untyped lambda calculus to lower-level code by game semantics and partial evaluation (invited paper)*](https://dl.acm.org/doi/10.1145/3018882.3020004) | Jan '17 | ***D.Berezun*** and [Neil D. Jones](http://hjemmesider.diku.dk/~neil/) | [paper]({{ site.baseurl }}{% link /publications/assets/pepm_17.pdf %})|
 | 7 | Известия вузов.<br />Северо Кавказский регион.<br />Технические науки.<br />–2017.–№4.–C.5–12. | [*Трассирующая нормализация нетипизированного лямбда-исчисления*](https://technauka.npi-tu.ru/ru/archive/2017/issue4/berezun) <br /> [*Untyped Lambda-Calculus Normalization by Traversals (in Russian)*](https://technauka.npi-tu.ru/ru/archive/2017/issue4/berezun) | Sep '17 | ***Berezun D.A.*** | [paper]({{ site.baseurl }}{% link /publications/assets/untyped_lambda_calculus_normalization_by_traversals.pdf %}) |
 | 6 | St. Petersburg State Polytechnical<br />University Journal. Computer<br /> Science. Telecommunications<br /> and Control Systems | [*Полная головная линейная редукция*](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=ntitu&paperid=184&option_lang=rus) <br /> [*Complete Head Linear Reduction* (in Russian)](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=ntitu&paperid=184&option_lang=rus) | '17 | ***Berezun D.A.*** | [paper]({{ site.baseurl }}{% link /publications/assets/complete_head_linear_reduction.pdf %}) |
-| 5 | [ЯПиК'17](https://elibrary.ru/item.asp?id=28974859&selid=29280363) | [*Трассирующая нормализация, основанная на игровой семантике и частичных вычислениях*](https://elibrary.ru/item.asp?id=29280422&pff=1) | Apr '17 |  ***D.Berezun***, N.Jones | |
-| 4 | [ЯПиК'17](https://elibrary.ru/item.asp?id=28974859&selid=29280363) | [*Независимая от компилятора библиотека точной сборки мусора для языка C++* (in Russian)](https://elibrary.ru/item.asp?id=29280363) | Apr '17 | E.Moiseenko, ***D.Berezun*** | |
+| 5 | [ЯПиК'17 (PLC'2017)](https://elibrary.ru/item.asp?id=28974859&selid=29280363) | [*Трассирующая нормализация, основанная на игровой семантике и частичных вычислениях*](https://elibrary.ru/item.asp?id=29280422&pff=1) | Apr '17 |  ***D.Berezun***, N.Jones | |
+| 4 | [ЯПиК'17 (PLC'2017)](https://elibrary.ru/item.asp?id=28974859&selid=29280363) | [*Независимая от компилятора библиотека точной сборки мусора для языка C++* (in Russian)](https://elibrary.ru/item.asp?id=29280363) | Apr '17 | E.Moiseenko, ***D.Berezun*** | |
 | 3 | [META'16](http://meta2016.pereslavl.ru/) | [Working Notes: Compiling ULC to Lower-level Code by Game Semantics and Partial Evaluation](http://meta2016.pereslavl.ru/papers/2016_Berezun_Jones__Working_Notes__Compiling_ULC_to_Lower-level_Co_de_by_Game_Semantics_and_Partial_Evaluation.pdf)| Jun '16 | ***D.Berezun*** and [Neil D. Jones](http://hjemmesider.diku.dk/~neil/) | [paper]({{ site.baseurl }}{% link /publications/assets/meta_2016.pdf %}) |
 | 2 | SEIM'16 | *Incremental Garbage Collection Library for C++* (in Russian) | '16 | E.Moiseenko, ***D.Berezun*** | |
 | 1 | [SECR'14](http://2014.secr.ru/) | [*Precise Garbage Collection for C++ with a Non-Cooperative Compiler*](https://dl.acm.org/doi/abs/10.1145/2687233.2687244) | '14 | ***D.Berezun***, [D.Boulytchev](https://research.jetbrains.org/researchers/db/) | [paper]({{ site.baseurl }}{% link /publications/assets/secr_2014.pdf %}), [talk](http://2014.secr.ru/lang/ru/program/submitted-presentations/precise-garbage-collection-for-c-with-a-non-cooperative-compiler) |
@@ -70,10 +70,10 @@ layout: wide
 
 # Talks
 
-| Place | Title | Slides/Video |
+| Place/year | Title | Slides/Video |
 | :---- | :---  | :---         |
 | Open lecture       | Metacomputations basics (основы метавычислений) | [video(rus)](https://youtu.be/Bn_86F7xdLs) |
 | JB-lab seminar     | Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма'' | [video](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7) |
 | MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | (RU) [part 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [part 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [part 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
-
+| [GaLoP XI '2016](https://sites.google.com/site/galopws/galopxi?authuser=0) | Partial Evaluation and Normalisation by Traversals  | [Abstract]({{ site.baseurl }}{% link /publications/assets/GaLoP_2016_paper_2.pdf %}) |
 ---
