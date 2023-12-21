@@ -32,6 +32,7 @@ layout: wide
 
 | #  | Place | Title | Date | Authors | Other |
 | :- | :---- | :---- | :--- | :------ | :---- |
+| [23](https://popl24.sigplan.org/home/pepm-2024#program) | [PEPM'24](https://popl24.sigplan.org/home/pepm-2024#About) | [*A Case Study in Functional Conversion and Mode Inference in miniKanren*]() | Jan '24 | [E. Verbitskaia](https://research.jetbrains.org/researchers/everbitskaia/), Igor Engel, ***D.Berezun*** | [paper]({{ site.baseurl }}{% link /publications/assets/PEPM24_paper_9.pdf %}) |
 | [22](https://icfp22.sigplan.org/home/minikanren-2022#program) | [miniKanren 2022](https://icfp22.sigplan.org/home/minikanren-2022#About) | [*Wildcard Logic Variables*](https://icfp22.sigplan.org/details/minikanren-2022-papers/5/Wildcard-Logic-Variables) | Sep '22 | [D. Kosarev](http://kakadu.github.io/), ***D.Berezun***, P.Losov | [paper]({{ site.baseurl }}{% link /publications/assets/mk-2022-wild.pdf %}) |
 | [21](https://icfp22.sigplan.org/home/minikanren-2022#program) | [miniKanren 2022](https://icfp22.sigplan.org/home/minikanren-2022#About) | [*On a Direction-Driven Functional Conversion*](https://icfp22.sigplan.org/details/minikanren-2022-papers/2/On-a-Direction-Driven-Functional-Conversion) | Sep '22 | [E. Verbitskaia](https://research.jetbrains.org/researchers/everbitskaia/), ***D.Berezun***, [D.Boulytchev](https://research.jetbrains.org/researchers/db/) | [paper]({{ site.baseurl }}{% link /publications/assets/mk-2022-edd.pdf %}) |
 | 20 | [ICPP'21](https://oaciss.uoregon.edu/icpp21/index.php) | [*Efficient Parallel Algorithms for String Comparison*](https://dl.acm.org/doi/10.1145/3472456.3472489) | Aug '21 | N.Mishin, ***D.Berezun***, [A.Tiskin](https://scholar.google.com/citations?user=P9lIbS0AAAAJ&hl=en) | [paper]({{ site.baseurl }}{% link /publications/assets/icpp_2021.pdf %}), [slides]({{ site.baseurl }}{% link /publications/assets/icpp_2021_presentation.pdf %}) |
@@ -71,7 +72,7 @@ layout: wide
 # Talks
 
 | Place/year | Title | Slides/Video |
-| :---- | :---  | :---         |
+| :---- | :---  | :--- |
 | Open lecture       | Metacomputations basics (основы метавычислений) | [video(rus)](https://youtu.be/Bn_86F7xdLs) |
 | JB-lab seminar     | Доклад на семинаре лаборатории: ``Выразительная сила типов высшего порядка и недетерминизма'' | [video](https://www.youtube.com/watch?v=PZKWdGln-nY&list=PL1iwBJ9vqBRbFrn2j27VL94-shiHIYGDn&index=7) |
 | MGU Mech-Math      | Traversal-based nomralization (Трассирующая нормализация) | (RU) [part 1](https://www.youtube.com/watch?v=-0cp9hBv-9o), [part 2](https://www.youtube.com/watch?v=2sgYYiY2D8k), [part 3](https://www.youtube.com/watch?v=-Qpk1CjFDkE) |
