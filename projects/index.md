@@ -8,6 +8,25 @@ The list of tasks/topics is not exhaustive and highly varies depending on a stud
 Please, do not hesitate to contact me for more details.
 
 ---
+# Bringing new language features to Kotlin
+***Keywords***: compilers, type systems, progam analisys, language design, Kotlin
+
+### Active topics/projects:
+* [~] GADTs
+* [~] Denotable existantionals
+* [~] Compound expressions; e.g. enriching structural control flow operators with optional init-statement before condition (like C)
+* [~] Internal and external parameter names (like Swift) and ability to enforce parameter usage in named form only
+* [~] Comprehensions
+* [~] ReplaceWith specification
+* ...
+
+***Requirements***
+* Desire to work and learn something new and dig into the Kotlin compiler
+* Proficiency in Kotlin
+* Knowledge of fundamental concepts of compiler and programming languages design
+* Knowledge/Experience with type systems, static analysis is desirable
+
+---
 
 # Relational programming with miniKanren/OCanren
 
@@ -50,10 +69,10 @@ Useful links:
 It currently exists for x86_64 architecture only.
 There are many directions for its (and its infrastructure) development, both scientific and purely technical:
 
-* Implement a lsp-server (together with a basic plugin for VSCode/IntelliJ which runs the server for all .lama files); useful links: [ocaml-lsp](https://github.com/ocaml/ocaml-lsp), [lsp-spec](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
+* [~] Implement a lsp-server (together with a basic plugin for VSCode/IntelliJ which runs the server for all .lama files); useful links: [ocaml-lsp](https://github.com/ocaml/ocaml-lsp), [lsp-spec](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
 * Implement a native compiler to ARM (32 and/or 64) [the task can be naturally extended with advanced register allocation]
 * Implement a native compiler to x86_64 [the task can be naturally extended with advanced register allocation]
-* Lama memory management; current garbage collector is a tiny simplest mark-and-copy stop-the-world algorithm; it can be improved in a number of ways: mark-and-compact, generational (partial) GC, concurrent and/or parallel GC, ...
+* [~] Lama memory management; current garbage collector is a tiny simplest mark-and-copy stop-the-world algorithm; it can be improved in a number of ways: mark-and-compact, generational (partial) GC, concurrent and/or parallel GC, ...
 * Support compilation into OCaml; useful link: [Malfunctional](https://web.archive.org/web/20170725050716/https://www.cl.cam.ac.uk/~sd601/papers/malfunction.pdf)
 * Develop a weak (or at least gradual) type system
 * Compiler into LLVM-IR; This task can be extended later to support specialization of the generated IR subset
@@ -88,7 +107,7 @@ The project aims to bring new features in ML-like languages and produce some pat
   Useful links: [ocamil](https://github.com/nojb/ocamil), [smldotnet](https://github.com/kaveman-/smldotnet), [a paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.58.4305&rep=rep1&type=pdf), [miniML](https://gitlab.com/Kakadu/fp2020-materials-private/-/tree/master/miniml)
   {% comment %} [kakadu's parser for miniML](https://gitlab.com/Kakadu/fp2020-materials-private/-/tree/master/miniml) {% endcomment %}
 * OCaml to JVM
-* Patching polymorphic variants for OCaml\\
+* [~v] Patching polymorphic variants for OCaml\\
   Usefull links: [a paper](https://arxiv.org/pdf/1606.01106.pdf), [Tommaso Petrucciani PhD thesis](https://tel.archives-ouvertes.fr/tel-02119930/document) and [prototype](https://gitlab.math.univ-paris-diderot.fr/petrucciani/setvariants/-/tree/master)
 
 ***Knowledge in the following areas would be a plus***:
