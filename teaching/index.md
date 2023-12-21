@@ -34,6 +34,17 @@ Lectures:
 
 ---
 
+## Advanced Functional programming
+Readings (together with [Ekaterina Verbitskaia](https://kajigor.github.io/)):
+
+| Place                                                                                    | Year             | Role                 | Comments             | Materials                                                                            |
+| :--------------------------------------------------------------------------------------- | :--------------- | :------------------- | :------------------- | :----------------------------------------------------------------------------------- |
+| [Constructor University](https://www.jacobs-university.de/) | Autumn 2024      |              |                      |   |
+| <img width=150/>                                                                         | <img width=100/> | <img width=120/>     | <img width=150/>     | <img width=150/>                                                                     |
+
+
+---
+
 ## Metacomputations
 
 [ENG]
