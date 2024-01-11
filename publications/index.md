@@ -2,7 +2,7 @@
 layout: wide
 ---
 
----
+<!-- ---
 
 # Selected pulications
 
@@ -11,20 +11,7 @@ layout: wide
 | [ICPP'21](https://oaciss.uoregon.edu/icpp21/index.php) | [*Efficient Parallel Algorithms for String Comparison*](https://dl.acm.org/doi/10.1145/3472456.3472489) | Aug '21 | N.Mishin, ***D.Berezun***, [A.Tiskin](https://scholar.google.com/citations?user=P9lIbS0AAAAJ&hl=en) | [paper]({{ site.baseurl }}{% link /publications/assets/icpp_2021.pdf %}), [slides]({{ site.baseurl }}{% link /publications/assets/icpp_2021_presentation.pdf %}) |
 | [TFPIE'21](https://wiki.tfpie.science.ru.nl/TFPIE2021) | *Reimplementing the Wheel: Teaching Compilers with a Small Self-Contained One* | Jul '21 | [D. Boulytchev](https://research.jetbrains.org/researchers/db/), ***D.Berezun*** | [paper]({{ site.baseurl }}{% link /publications/assets/TFPIE_2021.pdf %}), [slides]({{ site.baseurl }}{% link /publications/assets/TFPIE_2021_slides.pdf %}) |
 | [PEPM'17](https://conf.researchr.org/program/pepm-2017/program-pepm-2017) | [*Compiling untyped lambda calculus to lower-level code by game semantics and partial evaluation (invited paper)*](https://dl.acm.org/doi/10.1145/3018882.3020004) | Jan '17 | ***D.Berezun*** and [Neil D. Jones](http://hjemmesider.diku.dk/~neil/) | [paper]({{ site.baseurl }}{% link /publications/assets/pepm_17.pdf %})|
-| <img width=70/> | <img width=400/> |<img width=70/> | | |
-
----
-
-# ID's:
-
-| Identifier     | Value |
-| :---------     | :---- |
-| SPIN           | 7493-9896 |
-| ResearcherID   | AAE-5442-2021 |
-| SCOPUS ID      | [57190984988](https://www.scopus.com/authid/detail.uri?authorId=57190984988) |
-| ORCID          | [0000-0001-6306-275X](https://orcid.org/0000-0001-6306-275X) |
-| Google Scholar | [link](https://scholar.google.com/citations?hl=en&user=Hc5Wf3wAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate) |
-|<img width=30/>| |
+| <img width=70/> | <img width=400/> |<img width=70/> | | | -->
 
 ---
 
@@ -59,6 +46,19 @@ layout: wide
 |<img width=30/>| <img width=70/> | <img width=400/> |<img width=70/> | | |
 
 [//]: <> (TODO: add 1) GC unpublished 2)Any with Semyon and Alexei in 21??)
+
+---
+
+# ID's:
+
+| Identifier     | Value |
+| :---------     | :---- |
+| SPIN           | 7493-9896 |
+| ResearcherID   | AAE-5442-2021 |
+| SCOPUS ID      | [57190984988](https://www.scopus.com/authid/detail.uri?authorId=57190984988) |
+| ORCID          | [0000-0001-6306-275X](https://orcid.org/0000-0001-6306-275X) |
+| Google Scholar | [link](https://scholar.google.com/citations?hl=en&user=Hc5Wf3wAAAAJ&view_op=list_works&alert_preview_top_rm=2&sortby=pubdate) |
+|<img width=30/>| |
 
 ---
 

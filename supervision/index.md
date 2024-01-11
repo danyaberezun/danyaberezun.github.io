@@ -8,8 +8,9 @@ layout: wide
 | :------------------- | :------------------------------------------ | :--------------- | :--------------- |
 | Venediktov Roman     | GADTs and existentials in Kotlin            | CUB              |                  |
 | Ipatov Mark          | Internal and external param names in Kotlin | CUB              |                  |
-| Sheremetov Egor      | Lama GC                                     | CUB              |                  |
 | Ivlev Nikita         | Compounds in Kotlin                         | CUB              |                  |
+| Oleg Makeev          | Comprehensions in Kotlin                    | CUB              |                  |
+| Sheremetov Egor      | Lama GC                                     | CUB              |                  |
 | Savelev Artem        | Lama lsp-server                             | TUM              |                  |
 | <img width=150/>     | <img width=250/>                            | <img width=200/> | <img width=100/> |
 
