@@ -1,18 +1,32 @@
 ---
 layout: default
 ---
-
+<!-- 
 This page contains a (non-exhaustive) list of topics (and research areas) for student projects, one- and two- term projects, diplomas, and graduation thesis.
 
 The list of tasks/topics is not exhaustive and highly varies depending on a student's prior experience and knowledge.
-Please, do not hesitate to contact me for more details.
+Please, do not hesitate to contact me for more details. -->
+
+---
+# Some rough ideas:
+
+* *LSP-server aggregator*. Create a prototype of a tool/protocol for interaction between lsp-servers. E.g. a thing that behave like a client for different lsp-servers and process and redirects requests from one to another. This might be helpful for interlanguage interaction.
+* light-weight extension? a-la idea in browser; Lightweight extension that brings most of inspections and functionality for code-review, pr-review, and project management. The main goal --- bring as much ide-functionality as possible to any place where one may need to inspect code (focus: for team leads and reviewers).
+* LLMs:
+  - *test prioritization*
+  - source *code* + *failing* test =[get]=> why it is failing
+  - Practically define a class of problems where existing solutions runs much better with LLM with bigger context
+  - *Prioritization search* (i.e. in logic programming or parsing). For example, parsers: one can use an exponential approach (e.g. for fair alternation); get from LLM why in this case parsing failed (extract real reason from a set of different errors)
+  - *Code optimization*. Find (in the background somewhere continuously) where the code can be optimized by synthesizing alternative solutions for pieces of code + test generation + measurements => proposal for improvement with prioritization of what to improve
+  - *loop invariant generation*; application to reversible programming
 
 ---
 # Bringing new language features to Kotlin
-***Keywords***: compilers, type systems, progam analisys, language design, Kotlin
+***Keywords***: compilers, type systems, program analysis, language design, Kotlin
 
 ### Active topics/projects:
 * [~] GADTs
+* [~] (Restricted) Union types
 * [~] Denotable existantionals
 * [~] Compound expressions; e.g. enriching structural control flow operators with optional init-statement before condition (like C)
 * [~] Internal and external parameter names (like Swift) and ability to enforce parameter usage in named form only
@@ -66,13 +80,34 @@ Useful links:
 ***Keywords***: compilers, semantics, static analisys, code generation
 
 [Lama](https://github.com/PLTools/Lama) is a programming language developed by JetBrains Research for educational purposes (as an exemplary language to introduce the domain of programming languages, compilers, and tools).
-It currently exists for x86_64 architecture only.
+It currently exists for x86_32 architecture only.
 There are many directions for its (and its infrastructure) development, both scientific and purely technical:
 
 * [~] Implement a lsp-server (together with a basic plugin for VSCode/IntelliJ which runs the server for all .lama files); useful links: [ocaml-lsp](https://github.com/ocaml/ocaml-lsp), [lsp-spec](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/)
 * Implement a native compiler to ARM (32 and/or 64) [the task can be naturally extended with advanced register allocation]
-* Implement a native compiler to x86_64 [the task can be naturally extended with advanced register allocation]
+* [~] Implement a native compiler to x86_64 [the task can be naturally extended with advanced register allocation]
 * [~] Lama memory management; current garbage collector is a tiny simplest mark-and-copy stop-the-world algorithm; it can be improved in a number of ways: mark-and-compact, generational (partial) GC, concurrent and/or parallel GC, ...
+* Debugger + better gdb support
+* Better support for course On Virtual Machines; tasks are:
+  - Bytecode interpreter
+  - Bytecode idioms analyzer
+  - Truffle Lama
+  - Bytecode verifier
+  - Dynamic profiler
+  - Dynamic compiler (at least simple one-pass one) 
+  - Console debugger (for bytecode interpreter)
+  - GC: a lot (generational, incremental, parallel, ...)
+* Type of bounds in runtime: `size_t` $\to$ `uint32_t*`
+* Define program interface for globals locations
+* byterun disassembler. Current "small" problems:
+  - add checks that input data are correct 
+  - current implementation assumes `char` to be unsigned; we shall use unsigned char instead
+  - Numerical instruction labels written into the disassembler source code. If you think about a possible change in the encoding of instructions, you need to describe it separately and use named constants or generate switches with a preprocessor
+  - Bytecode `STOP` doesn't disassemble
+  - add const qualifier
+  - `static` for private functions and globals
+  - move the disassembly of one bytecode into a separate function that produces the advanced bytecode address
+  - tables of functions and globals
 * Support compilation into OCaml; useful link: [Malfunctional](https://web.archive.org/web/20170725050716/https://www.cl.cam.ac.uk/~sd601/papers/malfunction.pdf)
 * Develop a weak (or at least gradual) type system
 * Compiler into LLVM-IR; This task can be extended later to support specialization of the generated IR subset
